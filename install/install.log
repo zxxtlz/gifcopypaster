@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20260628202523
+Start time: 20260701225816
 Username: DESKTOP-K2EPKSL\Admin
 RunAs User: DESKTOP-K2EPKSL\Admin
 Configuration Name: 
 Machine: DESKTOP-K2EPKSL (Microsoft Windows NT 10.0.26200.0)
 Host Application: powershell -NoProfile -ExecutionPolicy Bypass -File install.ps1
-Process ID: 24280
+Process ID: 17040
 PSVersion: 5.1.26100.8655
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8655
@@ -16,7 +16,7 @@ WSManStackVersion: 3.0
 PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
-Transcript started, output file is C:\Users\Admin\Downloads\gifcopier\install\install.log
+Transcript started, output file is C:\Users\Admin\Downloads\gifcopierNEW\gifcopier\install\install.log
 
 GIFCopier installed to C:\GIFCopier
 Now install the browser extension:
@@ -24,5 +24,5 @@ Now install the browser extension:
   Edge    : https://microsoftedge.microsoft.com/addons/detail/gifcopier/ilkmmecafihenljghaofocefdofekafo
 **********************
 Windows PowerShell transcript end
-End time: 20260628202527
+End time: 20260701225818
 **********************

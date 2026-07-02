@@ -53,7 +53,7 @@ $ffManifest = @{
     description        = "GIFCopier clipboard helper"
     path               = $exePath
     type               = "stdio"
-    allowed_extensions = @("gifcopier@syanth")
+    allowed_extensions = @("gifcopypaster@local")
 } | ConvertTo-Json -Depth 5
 
 $crManifest = @{
