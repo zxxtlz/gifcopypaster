@@ -120,4 +120,5 @@ gifcopier/
 ## Original Extension
 
 [GifCopier Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/gifcopier/)
+
 [GifCopier Repo](https://github.com/syanth/gifcopier)
