@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hris/Downloads/gifcopypaster/app/build/cmake_install.cmake",
+		"/home/hris/Downloads/gifcopypaster/app/build/app/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

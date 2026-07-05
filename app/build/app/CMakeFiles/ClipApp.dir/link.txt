@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/ClipApp.dir/link.d CMakeFiles/ClipApp.dir/clipapp.cpp.o CMakeFiles/ClipApp.dir/app_linux.cpp.o -o ClipApp

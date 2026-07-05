@@ -1,0 +1,13 @@
+/home/hris/Downloads/gifcopypaster/app/build/CMakeFiles/edit_cache.dir
+/home/hris/Downloads/gifcopypaster/app/build/CMakeFiles/rebuild_cache.dir
+/home/hris/Downloads/gifcopypaster/app/build/CMakeFiles/list_install_components.dir
+/home/hris/Downloads/gifcopypaster/app/build/CMakeFiles/install.dir
+/home/hris/Downloads/gifcopypaster/app/build/CMakeFiles/install/local.dir
+/home/hris/Downloads/gifcopypaster/app/build/CMakeFiles/install/strip.dir
+/home/hris/Downloads/gifcopypaster/app/build/app/CMakeFiles/ClipApp.dir
+/home/hris/Downloads/gifcopypaster/app/build/app/CMakeFiles/edit_cache.dir
+/home/hris/Downloads/gifcopypaster/app/build/app/CMakeFiles/rebuild_cache.dir
+/home/hris/Downloads/gifcopypaster/app/build/app/CMakeFiles/list_install_components.dir
+/home/hris/Downloads/gifcopypaster/app/build/app/CMakeFiles/install.dir
+/home/hris/Downloads/gifcopypaster/app/build/app/CMakeFiles/install/local.dir
+/home/hris/Downloads/gifcopypaster/app/build/app/CMakeFiles/install/strip.dir

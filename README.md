@@ -37,6 +37,8 @@ copy build\Release\ClipApp.exe ..\install\
 
 ### Linux
 
+You don't need to build manually — `install.sh` does this for you (see below).
+If you'd rather build by hand:
 ```bash
 cd app
 cmake -B build -DCMAKE_BUILD_TYPE=Release
@@ -52,18 +54,23 @@ cp build/ClipApp ../install/
 
 1. Build `ClipApp.exe` as above (it ends up in `install/`).
 2. Run `install/install.cmd` **as Administrator**.
-3. Install the Firefox extension from [AMO](https://addons.mozilla.org/en-US/firefox/addon/gifcopier/).
+3. Install the Firefox extension from [AMO](https://addons.mozilla.org/en-US/firefox/addon/gifcopypaster/).
 
 ### Linux
 
-1. Build `ClipApp` as above.
-2. `chmod +x install/install.sh && install/install.sh`
-3. Install the Firefox extension from [AMO](https://addons.mozilla.org/en-US/firefox/addon/gifcopier/).
-
-Install `xclip` (or `xsel` / `wl-clipboard` for Wayland) if not already present:
 ```bash
-sudo apt install xclip
+chmod +x install/install.sh
+./install/install.sh
 ```
+That's it — the script checks for missing dependencies (`cmake`, `g++`, `curl`,
+`xclip`/`xsel`/`wl-copy`), builds `ClipApp` if it isn't already built, installs
+it to `~/.local/share/gifcopypaster`, and registers it as a Native Messaging
+host for any Firefox install it finds (standard, Flatpak, or Snap). If a
+dependency is missing it prints the exact `apt install` command to run.
+
+Then install the Firefox extension from [AMO](https://addons.mozilla.org/en-US/firefox/addon/gifcopypaster/).
+
+To force a rebuild (e.g. after pulling code changes): `./install/install.sh --rebuild`
 
 ---
 
@@ -88,7 +95,7 @@ gifcopier/
     ├── install.cmd      # Windows launcher (run as Admin)
     ├── install.ps1      # Windows PowerShell installer
     ├── uninstall.cmd    # Windows uninstaller
-    └── install.sh       # Linux installer
+    └── install.sh       # Linux installer/uninstaller (builds ClipApp automatically)
 ```
 
 ---
@@ -108,4 +115,4 @@ gifcopier/
 ## Uninstalling
 
 **Windows:** run `install/uninstall.cmd` as Administrator.  
-**Linux:** run `install/install.sh --remove`.
+**Linux:** run `install/install.sh --remove` (there's no separate uninstall script — one script handles both).
