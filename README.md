@@ -116,3 +116,8 @@ gifcopier/
 
 **Windows:** run `install/uninstall.cmd` as Administrator.  
 **Linux:** run `install/install.sh --remove` (there's no separate uninstall script — one script handles both).
+
+## Original Extension
+
+[GifCopier Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/gifcopier/)
+[GifCopier Repo](https://github.com/syanth/gifcopier)
